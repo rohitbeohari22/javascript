@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <h2 id="demo2"></h2>
+    <script type="module">
+        import {name,age} from "./script.js";
+        import {student,subject} from "./main.js";
+        import message from './main.js';
+        document.getElementById("demo").innerHTML=`${message()}`;
+        // document.getElementById("demo").innerHTML=`My name is ${name} and i am ${age} year old`;
+        document.getElementById("demo2").innerHTML=`student name is ${student} and course is ${subject} `;
+        </script>
+</body>
+</html>

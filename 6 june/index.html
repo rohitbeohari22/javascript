@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="jQuery.js"></script>
+
+    <script>
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("p").toggle();
+        //     });
+        // });
+
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("#mybox").fadeOut();
+        //         $(".box2").fadeOut("slow");
+        //         $(".box3").fadeOut(3000);
+        //     });
+        // });
+
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").slideToggle(2000);
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+    <!-- <button>Fade</button>
+    <div id="mybox" class="box box1"></div>
+    <div  class="box box2"></div>
+    <div class="box box3"></div> -->
+    <!-- <button>Click here to toggle to paragraph</button>
+    <p>this is my paragraph</p> -->
+
+    <button>Click  to show paragraph</button>
+    <p>hello friend,i am raj</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+/* .box{
+
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    /* display: none; 
+
+ } 
+
+/* .box1{
+    background-color: rgb(208, 224, 22);
+}
+
+.box2{
+    background-color: rgb(13, 127, 100);
+}
+
+.box3{
+    background-color: blue;
+}  */
+button{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    padding:5px;
+
+}
+
+p{
+    background-color: blanchedalmond;
+    padding: 50px;
+    display: none;
+}
