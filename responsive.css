@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+  }
+#largeview{
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(120, 12, 124);
+    height: 120vh;
+   
+    
+    
+    /* display: none; */
+}
+
+#largeview ul li{
+    list-style-type: none;
+    margin: 30px 10px 30px 10px;
+
+}
+
+#largeview ul li a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#largeview ul li img{
+    
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+/* ================small views======== */
+#smallview{
+    /* float: left; */
+    background-color: black;
+    height: 100vh;
+    display: none;
+    margin-left: -25px;
+    /* display: none; */
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+
+#smallview ul li{
+    list-style-type: none;
+    margin: 30px 10px 30px 10px;
+}
+
+#smallview ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+#smallview ul li img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+#bars{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    display: none;
+}
+#closebar{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    display: none;
+}
+/* =========media for sidebar======= */
+
+@media(max-width:1041px){
+    #largeview{
+        display: none;
+    }
+    #smallview{
+        display: block;
+    }
+
+    #bars{
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: white;
+        display: block;
+    }
+    #closebar{
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: white;
+        display: none;
+    }
+}
+/* ---nav--- */
+
+#raj{
+    width: 1500px;
+    height: 70px;
+    background-color: rgb(17, 143, 152);
+    
+}
+
+#raj #rohitraj{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:50px;
+  padding-left: 600px;
+  font-weight: 500;
+  
+  
+}
